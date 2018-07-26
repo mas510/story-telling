@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="629px" height="273px" viewBox="0 0 629 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>mountains</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M233,2 C349.781703,127.916847 463,257 463,257 L0,257 C0,257 111.450857,127.912153 226.5,2 C227.950857,0.412152732 231.531703,0.416846948 233,2 Z" id="path-1"></path>
+        <path d="M194.75378,1.67315175 C292.366132,107.012148 387,215 387,215 L0,215 C0,215 93.1565475,107.008221 189.320734,1.67315175 C190.533437,0.344797032 193.526499,0.348724101 194.75378,1.67315175 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-603.000000, -1747.000000)">
+            <g id="mountains" transform="translate(603.000000, 1747.000000)">
+                <g id="mountain" transform="translate(166.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2B7F21" xlink:href="#path-1"></use>
+                    <polygon id="Path-3" fill="#206628" mask="url(#mask-2)" points="222 -14 351 252 494.013985 252"></polygon>
+                </g>
+                <g id="Path-3" transform="translate(0.000000, 58.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#2B7F21" xlink:href="#path-3"></use>
+                    <polygon fill="#206628" mask="url(#mask-4)" points="185.559395 -11.7120623 293.384449 210.817121 412.923137 210.817121"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

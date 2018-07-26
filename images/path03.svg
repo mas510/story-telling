@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="328px" viewBox="0 0 320 328" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>path03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M160,337 L172,292 L183,293 L192,331 C192,331 250,319 260,312 C270,305 315,252 318,247 C321,242 337,163 337,163 C337,163 328,114 328,111 C328,108 279,31 279,31 L210,0 L109,5 L34,52 L21,81 L1,134 L0,181 L8,229 L53,291 L119,324 L160,337 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-240.000000, -5485.000000)">
+            <g id="path03" transform="translate(234.000000, 5480.000000)">
+                <g id="Oval-22">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <circle stroke="#E64F35" stroke-width="7" stroke-dasharray="18,10" mask="url(#mask-2)" cx="166" cy="165" r="156"></circle>
+                </g>
+                <path d="M197.302015,310.06432 L183.875954,326.80518 L183.346375,326.144851 L197.247194,308.812019 L197.302015,308.880375 L197.356835,308.812019 L211.257655,326.144851 L210.728076,326.80518 L197.302015,310.06432 Z" id="Combined-Shape" stroke="#E64F35" stroke-width="6" transform="translate(197.302015, 317.808599) rotate(-105.000000) translate(-197.302015, -317.808599) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

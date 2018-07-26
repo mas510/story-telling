@@ -1,0 +1,1644 @@
+/** module **/
+
+.animation-container {
+  position: relative;
+
+  & > * {
+    position: absolute;
+  }
+}
+
+/*
+panel
+--------------------------------------------------
+*/
+
+.panel-area {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+  & > * {
+    position: absolute;
+  }
+
+  &.overflow-auto {
+    overflow: visible;
+  }
+}
+
+.panel01 {
+  height: 730px;
+  background: $green;
+
+  .animation01 {
+    z-index: 0;
+    top: -10px;
+    left: 688px;
+  }
+
+  .animation02 {
+    z-index: 2;
+    top: 303px;
+    left: 836px;
+  }
+
+  .animation03 {
+    z-index: 0;
+    top: 123px;
+    left: 151px;
+  }
+
+  .ribon {
+    z-index: 1;
+    top: 148px;
+    left: 626px;
+  }
+
+  .load {
+    z-index: 0;
+    top: 292px;
+    left: 796px;
+    width: 180px;
+    height: 440px;
+    background: $yellow;
+  }
+
+  .grass01 {
+    z-index: 0;
+    top: 630px;
+    left: 107px;
+  }
+
+  .grass02 {
+    z-index: 0;
+    top: 118px;
+    left: 511px;
+  }
+
+  .grass03 {
+    z-index: 0;
+    top: 55px;
+    left: 565px;
+    transform: scale(1.3, 1.3);
+  }
+
+  .grass04 {
+    z-index: 0;
+    top: 569px;
+    left: 1057px;
+  }
+
+  .grass05 {
+    z-index: 0;
+    top: 360px;
+    left: 1091px;
+    transform: scale(1.3, 1.3);
+  }
+
+  .grass06 {
+    z-index: 0;
+    top: 427px;
+    left: 1160px;
+  }
+
+  .thirdday {
+    z-index: 0;
+    top: 40px;
+    left: 1096px;
+    width: 220px;
+    height: 55px;
+    padding-top: 15px;
+    text-align: center;
+    background: #1e5317;
+    border-radius: 5px;
+  }
+}
+
+.panel02 {
+  height: 495px;
+  background: $red;
+}
+
+.panel03 {
+  height: 654px;
+  background: $blue;
+  animation: moveBackground01 10s linear 0s 1 normal forwards;
+
+  .text04 {
+    z-index: 4;
+    top: 50px;
+    animation: moveText04 30s linear 0s 1 normal forwards;
+  }
+
+  @keyframes moveText04 {
+    from {
+      left: 1000px;
+    }
+
+    to {
+      left: -5500px;
+    }
+  }
+
+  .sun {
+    z-index: 0;
+    top: -5px;
+    left: 1138px;
+    width: 188px;
+    height: 188px;
+    background: #F8D11C;
+    border-radius: 50%;
+    animation: moveSun 30s linear 0s 1 normal forwards;
+  }
+
+  $moveSunTO: 400px 800px;
+
+  @keyframes moveSun {
+    from {
+      transform: rotate(0);
+      transform-origin: $moveSunTO;
+    }
+
+    to {
+      transform: rotate(-100deg);
+      transform-origin: $moveSunTO;
+    }
+  }
+
+  .animation02 {
+    z-index: 5;
+    bottom: 100px;
+    left: 1000px;
+  }
+
+  .animation09 {
+    z-index: 1;
+    bottom: 0;
+  }
+
+  .animation04 {
+    z-index: 3;
+    top: 264px;
+    animation: moveAnimation04 5s linear 0s 1 normal both;
+  }
+
+  @keyframes moveAnimation04 {
+    from {
+      left: -400px;
+    }
+    to {
+      left: 300px;
+    }
+  }
+
+  .animation05 {
+    z-index: 3;
+    top: 264px;
+    animation: moveAnimation05 9s linear 0s 1 normal both;
+  }
+
+  @keyframes moveAnimation05 {
+    from {
+      left: 300px;
+    }
+
+    to {
+      left: 1500px;
+    }
+  }
+
+  .animation06 {
+    z-index: 2;
+    top: 362px;
+    animation: moveAnimation06 15s linear 0s 1 normal both;
+  }
+
+  @keyframes moveAnimation06 {
+    from {
+      left: -600px;
+    }
+    to {
+      left: 1500px;
+    }
+  }
+
+  .animation07 {
+    z-index: 3;
+    top: 424px;
+    animation: moveAnimation07 8s linear 0s 1 normal both;
+  }
+
+  @keyframes moveAnimation07 {
+    from {
+      left: -200px;
+    }
+
+    to {
+      left: 1000px;
+    }
+  }
+}
+
+@keyframes moveBackground01 {
+  from {
+    background-color: #4cc6c7;
+  }
+
+  50% {
+    background-color: #4cc6c7;
+  }
+
+  to {
+    background-color: #f95b32;
+  }
+}
+
+.panel04 {
+  height: 700px;
+  background: #fff2e5;
+
+  .text05 {
+    z-index: 1;
+    top: 80px;
+    left: 224px;
+  }
+
+  .marker01 {
+    z-index: 0;
+    top: 80px;
+    left: 224px;
+    width: 975px;
+    height: 83px;
+    background: $yellow;
+    animation: moveMarker01 2s linear 1s 1 normal both;
+  }
+
+  @keyframes moveMarker01 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 975px;
+    }
+  }
+
+  .marker02 {
+    z-index: 0;
+    top: 180px;
+    left: 372px;
+    width: 660px;
+    height: 83px;
+    background: $yellow;
+    animation: moveMarker02 1.5s linear 3s 1 normal both;
+  }
+
+  @keyframes moveMarker02 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 660px;
+    }
+  }
+
+  .melos-face-only {
+    z-index: 0;
+    top: 300px;
+    left: 200px;
+    animation: moveMelosFaceOnly 1s $easeInOutCubic 0s infinite alternate;
+  }
+
+  @keyframes moveMelosFaceOnly {
+    from {
+      transform: rotate(-20deg);
+    }
+
+    to {
+      transform: rotate(20deg);
+    }
+  }
+
+  .animation10 {
+    z-index: 0;
+    top: 350px;
+    left: 625px;
+  }
+}
+
+.panel05 {
+  height: 124px;
+  background: #252b23;
+}
+
+.panel06 {
+  height: 1000px;
+  background: $purple;
+
+  .bg-star01 {
+    width: 100%;
+    height: 100%;
+    background: url(../images/star01.svg) repeat 0 0;
+  }
+
+  .bg-star02 {
+    width: 100%;
+    height: 100%;
+    background: url(../images/star02.svg) repeat 0 0;
+  }
+
+  .bg-star03 {
+    width: 100%;
+    height: 100%;
+    background: url(../images/star03.svg) repeat 0 0;
+  }
+
+  .animation12 {
+    z-index: 0;
+    top: 0;
+    left: 0;
+    animation: moveAnimation12 2s linear 12s 1 normal both;
+  }
+
+  @keyframes moveAnimation12 {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: -300px;
+    }
+  }
+}
+
+.panel07 {
+  height: 1500px;
+  background: $red;
+
+  .text11-01 {
+    top: 70px;
+    left: 150px;
+  }
+
+  .text11-02 {
+    top: 70px;
+    left: 1800px;
+    animation: moveText11_02 1s $easeOutBack 0s 1 normal both;
+  }
+
+  @keyframes moveText11_02 {
+    from {
+      left: 1800px;
+    }
+
+    to {
+      left: 850px;
+    }
+  }
+
+  .bullets {
+    top: 200px;
+    left: 1300px;
+    animation: moveBullets 6s $easeInQuart 0s 1 normal both;
+  }
+
+  $moveBulletsTO: left top;
+
+  @keyframes moveBullets {
+    from {
+      left: 1500px;
+      transform: scale(10);
+      transform-origin: $moveBulletsTO;
+    }
+
+    to {
+      left: 180px;
+      transform: scale(1);
+      transform-origin: $moveBulletsTO;
+    }
+  }
+
+  .text12 {
+    top: 1269px;
+    left: 124px;
+    animation: moveText01 1s $easeInQuart 0s 1 normal both;
+  }
+}
+
+.panel08 {
+  height: 654px;
+  background: $green;
+
+  .bg-grasses {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/grasses.svg) repeat 0 0;
+  }
+
+  .bg-wilderness {
+    z-index: 1;
+    overflow: hidden;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: $yellow;
+    animation: moveBgWilderness 4s linear .7s 1 normal both;
+  }
+
+  @keyframes moveBgWilderness {
+    from {
+      width: 0%;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+
+  .shockwave {
+    z-index: 3;
+    top: 0;
+    left: 0;
+    animation: moveShockwave .2s linear 0s infinite normal both;
+  }
+
+  @keyframes moveShockwave {
+    from {
+      transform: scale(1.05);
+    }
+
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .melos {
+    z-index: 4;
+    top: 154px;
+    left: -95px;
+    animation: moveShockwave 5s linear 0s 1 normal both;
+
+    img {
+      transform: scale(0.2);
+    }
+  }
+
+  .destroyer {
+    animation: moveDestroyer 5s linear 0s 1 normal both;
+  }
+
+  @keyframes moveDestroyer {
+    from {
+      left: 1400px;
+    }
+
+    to {
+      left: -350px;
+    }
+  }
+
+  .text13 {
+    z-index: 2;
+    top: 210px;
+    right: 220px;
+    width: 925px;
+    height: 255px;
+    animation: moveText13 4s linear 0s 1 normal both;
+  }
+}
+
+.panel09 {
+  height: 655px;
+  background: #252b23;
+
+  .stop {
+    top: 88px;
+    left: 125px;
+  }
+
+  .text14-01 {
+    top: 84px;
+    left: 384px;
+    animation: moveText14 .5s $easeOutBack 0s 1 normal both;
+  }
+
+  .text14-02 {
+    top: 229px;
+    left: 384px;
+    animation: moveText14 .5s $easeOutBack .8s 1 normal both;
+  }
+
+  @keyframes moveText14 {
+    from {
+      left: 1400px;
+    }
+
+    to {
+      left: 384px;
+    }
+  }
+
+  .text15 {
+    top: 412px;
+    left: 587px;
+    animation: moveText15 3s linear 2s 1 normal both;
+  }
+
+  @keyframes moveText15 {
+    from {
+      top: 700px;
+    }
+
+    to {
+      top: 412px;
+    }
+  }
+
+  .text16 {
+    top: 510px;
+    left: 388px;
+    animation: moveText16 1s $easeInOutCubic 10s 1 normal both;
+  }
+
+  $moveText16T0: right bottom;
+
+  @keyframes moveText16 {
+    from {
+      transform: rotate(-50deg);
+      transform-origin: $moveText16T0;
+      opacity: 0;
+    }
+
+    to {
+      transform: rotate(0);
+      transform-origin: $moveText16T0;
+      opacity: 1;
+    }
+  }
+
+  .animation02 {
+    top: 470px;
+    left: 1300px;
+    animation: moveEndingMelos 10s $easeInOutCubic 1s 1 normal both;
+  }
+
+  @keyframes moveEndingMelos {
+    from {
+      top: 470px;
+      left: 1300px;
+    }
+
+    to {
+      top: 470px;
+      left: 770px;
+    }
+  }
+}
+
+/*
+animation_parts
+--------------------------------------------------*/
+
+.animation01 {
+  height: 300px;
+
+  .couple {
+    z-index: 2;
+    top: 44px;
+    left: 70px;
+  }
+
+  .yome-hand {
+    z-index: 1;
+    top: 122px;
+    left: 29px;
+    animation: moveYomeHand 2s linear 0s infinite normal;
+  }
+
+  $moveYomeHandTO: right 30px;
+
+  @keyframes moveYomeHand {
+    from {
+      transform: rotate(0);
+      transform-origin: $moveYomeHandTO;
+    }
+
+    25% {
+      transform: rotate(45deg);
+      transform-origin: $moveYomeHandTO;
+    }
+
+    50% {
+      transform: rotate(0deg);
+      transform-origin: $moveYomeHandTO;
+    }
+
+    75% {
+      transform: rotate(-45deg);
+      transform-origin: $moveYomeHandTO;
+    }
+
+    to {
+      transform: rotate(0deg);
+      transform-origin: $moveYomeHandTO;
+    }
+  }
+
+  .otto-hand {
+    z-index: 1;
+    top: 117px;
+    left: 272px;
+    animation: moveOttoHand 2s linear 0s infinite normal;
+  }
+
+  $moveOttoHandTO: left 30px;
+
+  @keyframes moveOttoHand {
+    from {
+      transform: rotate(0);
+      transform-origin: $moveOttoHandTO;
+    }
+
+    25% {
+      transform: rotate(-45deg);
+      transform-origin: $moveOttoHandTO;
+    }
+
+    50% {
+      transform: rotate(0deg);
+      transform-origin: $moveOttoHandTO;
+    }
+
+    75% {
+      transform: rotate(45deg);
+      transform-origin: $moveOttoHandTO;
+    }
+
+    to {
+      transform: rotate(0);
+      transform-origin: $moveOttoHandTO;
+    }
+  }
+}
+
+.animation02 {
+  height: 370px;
+
+  .melos {
+    animation: moveMelos $runSpeedNormalHumanBody $easeOutExpo 0s infinite alternate;
+  }
+
+  @keyframes moveMelos {
+    from {
+      top: 10px;
+    }
+
+    to {
+      top: 0;
+    }
+  }
+
+  .melos-face {
+    z-index: 5;
+    left: 54px;
+    animation: moveMelosFace $runSpeedNormalFace linear 0s infinite alternate;
+  }
+
+  @keyframes moveMelosFace {
+    from {
+      top: 4px;
+      transform: rotate(0);
+    }
+
+    to {
+      top: 11px;
+      transform: rotate(-10deg);
+    }
+  }
+
+  .melos-body {
+    z-index: 3;
+    left: 90px;
+    animation: moveMelosBody $runSpeedNormalBody linear 0s infinite alternate;
+  }
+
+  @keyframes moveMelosBody {
+    from {
+      top: 100px;
+      transform: rotate(0);
+    }
+
+    to {
+      top: 110px;
+      transform: rotate(-14deg);
+    }
+  }
+
+  .melos-hand-left {
+    z-index: 4;
+    top: 109px;
+    left: 156px;
+    animation: moveMelosHandLeft $runSpeedNormalLimbs linear 0s infinite alternate;
+  }
+
+  @keyframes moveMelosHandLeft {
+    from {
+      transform: rotate(-30deg);
+      transform-origin: left 15%;
+    }
+
+    to {
+      transform: rotate(90deg);
+      transform-origin: left 15%;
+    }
+  }
+
+  .melos-hand-right {
+    z-index: 2;
+    top: 73px;
+    left: 38px;
+    animation: moveMelosHandRight $runSpeedNormalLimbs linear 0s infinite alternate;
+
+    img {
+      transform: scale(-1, -1) rotate(-33deg);
+    }
+  }
+
+  @keyframes moveMelosHandRight {
+    from {
+      transform: rotate(0);
+      transform-origin: right 50%;
+    }
+
+    to {
+      transform: rotate(-90deg);
+      transform-origin: right 50%;
+    }
+  }
+
+  .melos-leg-left {
+    z-index: 2;
+    top: 211px;
+    left: 160px;
+    animation: moveMelosLegLeft $runSpeedNormalLimbs linear 0s infinite alternate;
+  }
+
+  @keyframes moveMelosLegLeft {
+    from {
+      transform: rotate(60deg);
+      transform-origin: left 15%;
+    }
+
+    to {
+      transform: rotate(-20deg);
+      transform-origin: left 15%;
+    }
+  }
+
+  .melos-leg-right {
+    z-index: 1;
+    top: 214px;
+    left: 49px;
+    animation: moveMelosLegRight $runSpeedNormalLimbs linear 0s infinite alternate;
+
+    img {
+      transform: rotate(102deg);
+    }
+  }
+
+  @keyframes moveMelosLegRight {
+    from {
+      transform: rotate(-80deg);
+      transform-origin: right 15%;
+    }
+
+    to {
+      transform: rotate(0);
+      transform-origin: right 15%;
+    }
+  }
+}
+
+.animation03 {
+  height: 800px;
+
+  .text01 {
+    animation: moveText01 .5s linear 2s 1 normal;
+  }
+
+  @keyframes moveText01 {
+    from {
+      transform: rotate(0);
+    }
+
+    85% {
+      transform: rotate(5deg);
+    }
+
+    90% {
+      transform: rotate(-5deg);
+    }
+
+    95% {
+      transform: rotate(5deg);
+    }
+
+    to {
+      transform: rotate(0);
+    }
+  }
+}
+
+.animation04 {
+  height: 400px;
+
+  .cheers-people01 {
+    z-index: 2;
+    top: 10px;
+    left: 0;
+  }
+
+  .cheers-people02 {
+    z-index: 2;
+    top: 10px;
+    left: 199px;
+  }
+
+  .cheers-hand01 {
+    z-index: 1;
+    top: 92px;
+    left: 72px;
+    animation: movecheersHand01 1s $easeInOutCubic 0s infinite alternate;
+  }
+
+  $cheersHand01TO: left 30px;
+
+  @keyframes movecheersHand01 {
+    from {
+      transform: rotate(20deg);
+      transform-origin: $cheersHand01TO;
+    }
+
+    to {
+      transform: rotate(-10deg);
+      transform-origin: $cheersHand01TO;
+    }
+  }
+
+  .cheers-hand02 {
+    z-index: 1;
+    top: 92px;
+    left: 155px;
+    animation: movecheersHand02 1s $easeInOutCubic 0s infinite alternate;
+  }
+
+  $cheersHand02TO: right 30px;
+
+  @keyframes movecheersHand02 {
+    from {
+      transform: rotate(-20deg);
+      transform-origin: $cheersHand02TO;
+    }
+
+    to {
+      transform: rotate(10deg);
+      transform-origin: $cheersHand02TO;
+    }
+  }
+}
+
+.animation05 {
+  height: 400px;
+
+  .surprised {
+    animation: moveSurprised 1s $easeOutBack 0s 1 normal forwards;
+
+    .surprised-people01 {
+      z-index: 1;
+      top: 10px;
+      left: -47px;
+    }
+
+    .surprised-people02 {
+      z-index: 1;
+      top: 10px;
+      left: 152px;
+    }
+
+    .surprised-cup01 {
+      z-index: 1;
+      top: 10px;
+      left: 162px;
+      animation: moveSurprisedCup01 1s linear 0s infinite normal;
+    }
+
+    @keyframes moveSurprisedCup01 {
+      from {
+        transform: rotate(0);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .surprised-cup02 {
+      z-index: 1;
+      top: 10px;
+      left: 111px;
+      animation: moveSurprisedCup02 1s linear 0s infinite reverse;
+    }
+
+    @keyframes moveSurprisedCup02 {
+      from {
+        transform: rotate(0);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .surprised-bottle {
+      z-index: 1;
+      top: 150px;
+      left: 305px;
+      animation: moveSurprisedBottle 1s linear 0s infinite normal;
+    }
+
+    @keyframes moveSurprisedBottle {
+      from {
+        transform: rotate(0);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+  @keyframes moveSurprised {
+    from {
+      top: 0;
+    }
+
+    to {
+      top: -100px;
+    }
+  }
+}
+
+.animation06 {
+  height: 500px;
+
+  .river {
+    z-index: 1;
+  }
+
+  .river-flow01 {
+    z-index: 2;
+    top: 17px;
+    left: 158px;
+    animation: moveRiverFlow01 .2s linear 0s infinite normal;
+    transform: scale(0.9, 0.9);
+  }
+
+  @keyframes moveRiverFlow01 {
+    from {
+      left: 168px;
+    }
+
+    to {
+      left: 158px;
+    }
+  }
+}
+
+.animation07 {
+  height: 200px;
+
+  .dog-fly {
+    animation: moveDogFly 1.5s linear 0s 1 normal forwards;
+  }
+
+  @keyframes moveDogFly {
+    from {
+      top: 0;
+      left: 0;
+      transform: rotate(0) scale(1, 1);
+      opacity: 1;
+    }
+
+    to {
+      top: -200px;
+      left: -100px;
+      transform: rotate(720deg) scale(.5, .5);
+      opacity: 0;
+    }
+  }
+}
+
+.animation08 {
+  height: 700px;
+
+  .melos-large {
+    top: -39px;
+    animation: moveMelosLarge .6s $easeOutQuart 0s 1 normal forwards;
+  }
+
+  @keyframes moveMelosLarge {
+    from {
+      left: 1500px;
+    }
+
+    to {
+      left: 600px;
+    }
+  }
+
+  .text03 {
+    top: 20px;
+    left: 100px;
+    animation: moveText03 .4s $easeOutBack 1s 1 normal forwards;
+    opacity: 0;
+  }
+
+  $moveText03T0: 500px bottom;
+
+  @keyframes moveText03 {
+    from {
+      display: block;
+      transform: rotate(-50deg);
+      transform-origin: $moveText03T0;
+      opacity: 0;
+    }
+
+    to {
+      display: block;
+      transform: rotate(0);
+      transform-origin: $moveText03T0;
+      opacity: 1;
+    }
+  }
+}
+
+.animation09 {
+    width: 100%;
+    height: 500px;
+
+  .earth {
+    z-index: 3;
+    bottom: 0;
+    width: 100%;
+    height: 248px;
+    background: #5e9152;
+  }
+
+  .load {
+    z-index: 4;
+    bottom: 64px;
+    width: 100%;
+    height: 121px;
+    background: $yellow;
+  }
+
+  .trees {
+    z-index: 4;
+    top: 55px;
+    animation: moveClowds 20s linear 5s infinite normal both;
+  }
+
+  @keyframes moveClowds {
+    from {
+      left: -1200px;
+    }
+
+    to {
+      left: 1500px;
+    }
+  }
+
+  .mountains {
+    z-index: 2;
+    top: 28px;
+    animation: moveClowds 27s linear 2s infinite normal both;
+  }
+
+  @keyframes moveClowds {
+    from {
+      left: -1200px;
+    }
+    to {
+      left: 1500px;
+    }
+  }
+
+  .clowds {
+    z-index: 1;
+    animation: moveClowds 35s linear 0s infinite normal;
+    transform: scale(-1, 1);
+  }
+
+  @keyframes moveClowds {
+    from {
+      left: -1200px;
+    }
+
+    to {
+      left: 1500px;
+    }
+  }
+}
+
+.animation10 {
+  height: 500px;
+
+  .baloon {
+    left: 40px;
+    width: 584px;
+    height: 243px;
+    background: $blue;
+    border-radius: 28px;
+
+    &:before {
+      position: absolute;
+      top: 35px;
+      left: -110px;
+      width: 0;
+      height: 0;
+      border: 80px solid transparent;
+      border-right: 80px solid $blue;
+      content: '';
+    }
+  }
+
+  .text06-01 {
+    top: 46px;
+    left: 91px;
+    animation: moveText06 2s $easeOutQuint 0s 1 normal both;
+  }
+
+  .text06-02 {
+    top: 113px;
+    left: 91px;
+    animation: moveText06 2s $easeOutQuint 1s 1 normal both;
+  }
+
+  @keyframes moveText06 {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.animation11 {
+  width: 100%;
+  height: 124px;
+
+  .text07-01 {
+    top: 20px;
+    left: 46%;
+    transform: translateX(-50%);
+    animation: moveText07 2s $easeInOutBack 0s infinite normal both;
+  }
+
+  .text07-02 {
+    top: 20px;
+    left: 54%;
+    transform: translateX(-50%);
+    animation: moveText07 2s $easeInOutBack .4s infinite normal both;
+  }
+
+  @keyframes moveText07 {
+    from {
+      transform: scale(0.9, 0.9);
+    }
+
+    40% {
+      transform: scale(1, 1);
+    }
+
+    to {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.animation12 {
+  width: 100%;
+  height: 758px;
+
+  .whole-earth {
+    z-index: 1;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    width: 1600px;
+    height: 1600px;
+    border-radius: 50%;
+    background: $blue;
+    transform: translate(-50%, -50%);
+    animation: moveWholeEerth 100s linear 2s 1 normal forwards;
+  }
+
+  @keyframes moveWholeEerth {
+    from {
+      width: 1600px;
+      height: 1600px;
+    }
+
+    5% {
+      width: 1600px;
+      height: 1600px;
+    }
+
+    7% {
+      width: 462px;
+      height: 462px;
+    }
+
+    to {
+      width: 462px;
+      height: 462px;
+    }
+  }
+
+  .continent {
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: scale(1) translate(-1103px, -967px);
+    animation: moveContinent 100s linear 2s 1 normal both;
+  }
+
+  @keyframes moveContinent {
+    from {
+      opacity: 1;
+    }
+
+    8% {
+      opacity: 1;
+    }
+
+    9% {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  .pin {
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $red;
+    transform: translate(-50%, -50%);
+    animation: movePin 100s linear 2s 1 normal both;
+  }
+
+  @keyframes movePin {
+    from {
+      opacity: 0;
+    }
+
+    1% {
+      opacity: 1;
+    }
+
+    5% {
+      width: 40px;
+      height: 40px;
+    }
+
+    7% {
+      width: 20px;
+      height: 20px;
+    }
+
+    9% {
+      width: 20px;
+      height: 20px;
+      margin-top: 0;
+    }
+
+    10% {
+      width: 20px;
+      height: 20px;
+      margin-top: 150px;
+    }
+
+    to {
+      width: 20px;
+      height: 20px;
+      margin-top: 150px;
+      opacity: 1;
+    }
+  }
+
+  .path01 {
+    z-index: 5;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    width: 399px;
+    height: 168px;
+    transform: translate(-399px, -168px);
+    animation: movePath01 100s linear 2s 1 normal both;
+  }
+
+  @keyframes movePath01 {
+    from {
+      width: 0;
+    }
+
+    1% {
+      width: 0;
+    }
+
+    2% {
+      width: 399px;
+    }
+
+    4% {
+      opacity: 1;
+    }
+
+    5% {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  .text08 {
+    z-index: 5;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    width: 323px;
+    height: 76px; /*heightとmargin-topを同時に動かせば出現いけそうだ！*/
+    transform: translate(-398px, -252px);
+    animation: moveText08 100s linear 2s 1 normal both;
+  }
+
+  @keyframes moveText08 {
+    from {
+      height: 0;
+    }
+
+    1% {
+      height: 0;
+      margin-top: 74px;
+    }
+
+    2% {
+      height: 74px;
+      margin-top: 0;
+    }
+
+    4% {
+      opacity: 1;
+    }
+
+    5% {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  .axis-top {
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 60px;
+    border-radius: 0;
+    background: #ad7457;
+    transform: translate(-7px, -290px);
+    animation: moveAxisTop 100s linear 2s 1 normal both;
+  }
+
+  @keyframes moveAxisTop {
+    from {
+      z-index: 0;
+      width: 14px;
+      height: 60px;
+      border-radius: 0;
+      transform: translate(-7px, -290px);
+    }
+
+    8% {
+      z-index: 0;
+      width: 14px;
+      height: 60px;
+      border-radius: 0;
+      transform: translate(-7px, -290px);
+    }
+
+    9% {
+      z-index: 2;
+      width: 14px;
+      height: 60px;
+      border-radius: 0;
+      transform: translate(-7px, -290px);
+    }
+
+    10% {
+      z-index: 2;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      transform: translate(-7px, -7px);
+    }
+
+    to {
+      z-index: 2;
+      width: 14px;
+      height: 14px;
+      border-radius: 0;
+      transform: translate(-7px, -7px);
+    }
+  }
+
+  .axis-bottom {
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    width: 14px;
+    height: 60px;
+    background: #ad7457;
+    transform: translate(-7px, 230px);
+    animation: moveAxisBottom 100s linear 2s 1 normal both;
+  }
+
+  @keyframes moveAxisBottom {
+    from {
+      transform: translate(-7px, 230px);
+    }
+
+    9% {
+      transform: translate(-7px, 230px);
+    }
+
+    10% {
+      transform: translate(-7px, -53px);
+    }
+
+    to {
+      transform: translate(-7px, 53px);
+    }
+  }
+
+  .path03 {
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-160px, -164px);
+    animation: movePath03 100s linear 2s 1 normal both;
+  }
+
+  @keyframes movePath03 {
+    from {
+      opacity: 0;
+    }
+
+    11% {
+      opacity: 0;
+    }
+
+    12% {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .path02 {
+    z-index: 6;
+    overflow: hidden;
+    top: 212px;
+    left: 800px;
+    width: 0;
+    height: 82px;
+    animation: movePath02 100s linear 2s 1 normal both;
+  }
+
+  @keyframes movePath02 {
+    from {
+      width: 0;
+    }
+
+    13% {
+      width: 0;
+    }
+
+    14% {
+      width: 626px;
+    }
+
+    to {
+      width: 626px;
+    }
+  }
+
+  .text09 {
+    z-index: 6;
+    overflow: hidden;
+    top: 117px;
+    left: 910px;
+    width: 488px;
+    height: 0;
+    margin-top: 46px;
+    animation: moveText09 100s linear 2s 1 normal both;
+  }
+
+  @keyframes moveText09 {
+    from {
+      margin-top: 77px;
+      height: 0;
+    }
+
+    13% {
+      margin-top: 77px;
+      height: 0;
+    }
+
+    14% {
+      margin-top: 0;
+      height: 77px;
+    }
+
+    to {
+      margin-top: 0;
+      height: 77px;
+    }
+  }
+
+  .text10-01 {
+    z-index: 6;
+    overflow: hidden;
+    top: 280px;
+    left: 980px;
+    width: 474px;
+    height: 0;
+    animation: moveText10_01 100s linear 2s 1 normal both;
+  }
+
+  @keyframes moveText10_01 {
+    from {
+      height: 0;
+    }
+
+    16% {
+      height: 0;
+    }
+
+    19% {
+      height: 485px;
+    }
+
+    to {
+      height: 485px;
+    }
+  }
+
+  .text10-02 {
+    z-index: 6;
+    left: 1014px;
+    width: 414px;
+    height: 57px;
+    animation: moveText10_02 2s $easeOutExpo 22s 1 normal both;
+  }
+
+  @keyframes moveText10_02 {
+    from {
+      top: 1050px;
+    }
+
+    to {
+      top: 800px;
+    }
+  }
+}

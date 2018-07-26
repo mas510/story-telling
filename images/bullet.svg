@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="86px" viewBox="0 0 168 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>bullet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="167.477785" height="108.810835"></rect>
+        <path d="M120.110331,85.1010809 L271.939939,85.1010809 L271.939939,0 L116.726941,0 C99.9237297,0.0425097839 81.5538444,2.58616044 73.1658002,8.04438078 C64.7073262,13.5484308 48.2133019,33.871077 38.4860568,40.2219039 C28.7588116,46.5727308 1.2687711,52.9235578 0.422923701,66.4719885 C-0.422923701,80.0204193 8.88139771,85.1010809 8.88139771,85.1010809 L120.110331,85.1010809 Z" id="path-3"></path>
+        <polygon id="path-5" points="0 1.64778212 22.8378798 30.4839693 198.351725 30.4839693 198.351725 0.400675057"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1034.000000, -6444.000000)">
+            <g id="Group-50" transform="translate(238.000000, 6436.000000)">
+                <g id="Group-41">
+                    <g id="bullet" transform="translate(795.951125, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Path-31-+-Path-34-+-Path-30-+-Path-32-+-Rectangle-17-+-Rectangle-17-+-Rectangle-17-+-Rectangle-17-+-Mask-+-Path-33-+-Path-33-+-Path-33-+-Path-33-Mask-Mask" mask="url(#mask-2)">
+                            <g transform="translate(-0.422924, 8.044381)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" stroke="none" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <path d="M69.7824106,6.77421539 C69.7824106,6.77421539 84.5847401,11.0081 85.8535112,19.0524808 C87.1222823,27.0968616 76.5491898,36.8347962 63.0156314,38.52835 C49.482073,40.2219039 31.2963538,33.4476885 31.2963538,33.4476885 L69.7824106,6.77421539 Z" id="Path-31" stroke="none" fill="#332E48" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                                <polygon id="Path-34" stroke="none" fill="#C2B8C3" fill-rule="evenodd" mask="url(#mask-4)" points="10.9960162 90.1817424 0 76.2099232 53.71131 65.6252116 277.860871 66.0486001 277.437948 91.0285193"></polygon>
+                                <path d="M-2.72123151,77.4573049 C-2.39539828,77.3947431 -2.39539828,77.3947431 -2.12715081,77.3432945 C-1.64219754,77.2503044 -1.07887848,77.14243 -0.443415319,77.0209119 C1.37230115,76.6736969 3.40194273,76.2867918 5.59573302,75.8701212 C11.8636102,74.679652 18.190898,73.4891916 24.1792566,72.3781604 C24.6951571,72.2824444 25.2067797,72.1876475 25.7139584,72.0938027 C41.7137218,69.1333187 52.2264473,67.3187655 53.71131,67.3187655 L276.5921,67.3187655 L276.5921,64.7784347 L53.71131,64.7784347 C51.9729204,64.7784347 41.7727026,66.5390474 25.2527565,69.5957824 C24.7451734,69.689702 24.2331502,69.7845732 23.7168525,69.8803629 C17.7245757,70.992121 11.3938892,72.1832208 5.12273952,73.3743116 C2.92787039,73.7911871 0.897196635,74.178289 -0.919522387,74.5256957 C-1.55541165,74.6472952 -2.11914915,74.7552498 -2.6045146,74.848319 C-2.87305292,74.8998233 -2.87305292,74.8998233 -3.04766385,74.9333407 C-3.17375599,74.9575547 -2.72123151,77.4573049 -2.72123151,77.4573049 Z" id="Path-30" stroke="none" fill="#ACA5AF" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                                <polygon id="Path-32" stroke="none" fill="#636066" fill-rule="evenodd" mask="url(#mask-4)" points="-4.65216071 63.0848809 25.0162452 60.1211616 27.9129642 55.887277 3.80631331 56.3106655"></polygon>
+                                <rect id="Rectangle-17" stroke="none" fill="#53C6DD" fill-rule="evenodd" mask="url(#mask-4)" x="134.489737" y="11.8548769" width="20.7232613" height="19.4758693" rx="8"></rect>
+                                <g id="Path-33-+-Path-33-Mask" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
+                                    <g transform="translate(85.007664, 38.951739)">
+                                        <mask id="mask-6" fill="white">
+                                            <use xlink:href="#path-5"></use>
+                                        </mask>
+                                        <g id="Mask" stroke="none" fill="none"></g>
+                                        <polygon id="Path-33" stroke="none" fill="#476B8F" fill-rule="evenodd" mask="url(#mask-6)" points="-2.9604659 8.341897 194.544902 8.341897 194.544902 0.720904679 -2.9604659 0.720904679"></polygon>
+                                        <polygon id="Path-33" stroke="none" fill="#476B8F" fill-rule="evenodd" mask="url(#mask-6)" points="-2.9604659 18.182818 190.315665 18.182818 190.315665 13.9489334 -2.9604659 13.9489334"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="50px" viewBox="0 0 88 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>yome-hand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-719.000000, -110.000000)">
+            <g id="yome-hand" transform="translate(715.000000, 107.000000)">
+                <ellipse id="Oval-3" fill="#FFD9B0" transform="translate(15.407669, 17.430306) rotate(-70.000000) translate(-15.407669, -17.430306) " cx="15.4076688" cy="17.4303057" rx="13.8242962" ry="10.8352592"></ellipse>
+                <path d="M22.3160174,5.7334903 C22.3160174,5.7334903 39.0985504,16.1903354 56.5610003,22.5461474 C74.0234502,28.9019593 91.7644165,33.5892916 91.7644165,33.5892916 L84.8542665,53.0209058 C84.8542665,53.0209058 68.4363966,45.8683321 50.0368017,40.1056811 C31.6372068,34.3430301 13.2695526,30.6009708 13.2695526,30.6009708 L22.3160174,5.7334903 Z" id="Rectangle-4" fill="#FFC6C6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

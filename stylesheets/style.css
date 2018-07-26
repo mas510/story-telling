@@ -1,0 +1,1559 @@
+@charset "UTF-8";
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ * Easing function
+ * Original：http://easings.net/
+ */
+/*
+*runSpeed
+*/
+/*
+*base-color
+*/
+/** module **/
+/* line 3, ../sass/melos.scss */
+.animation-container {
+  position: relative;
+}
+/* line 6, ../sass/melos.scss */
+.animation-container > * {
+  position: absolute;
+}
+
+/*
+panel
+--------------------------------------------------
+*/
+/* line 16, ../sass/melos.scss */
+.panel-area {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+/* line 22, ../sass/melos.scss */
+.panel-area > * {
+  position: absolute;
+}
+/* line 26, ../sass/melos.scss */
+.panel-area.overflow-auto {
+  overflow: visible;
+}
+
+/* line 31, ../sass/melos.scss */
+.panel01 {
+  height: 730px;
+  background: #1A8F59;
+}
+/* line 35, ../sass/melos.scss */
+.panel01 .animation01 {
+  z-index: 0;
+  top: -10px;
+  left: 688px;
+}
+/* line 41, ../sass/melos.scss */
+.panel01 .animation02 {
+  z-index: 2;
+  top: 303px;
+  left: 836px;
+}
+/* line 47, ../sass/melos.scss */
+.panel01 .animation03 {
+  z-index: 0;
+  top: 123px;
+  left: 151px;
+}
+/* line 53, ../sass/melos.scss */
+.panel01 .ribon {
+  z-index: 1;
+  top: 148px;
+  left: 626px;
+}
+/* line 59, ../sass/melos.scss */
+.panel01 .load {
+  z-index: 0;
+  top: 292px;
+  left: 796px;
+  width: 180px;
+  height: 440px;
+  background: #f9b046;
+}
+/* line 68, ../sass/melos.scss */
+.panel01 .grass01 {
+  z-index: 0;
+  top: 630px;
+  left: 107px;
+}
+/* line 74, ../sass/melos.scss */
+.panel01 .grass02 {
+  z-index: 0;
+  top: 118px;
+  left: 511px;
+}
+/* line 80, ../sass/melos.scss */
+.panel01 .grass03 {
+  z-index: 0;
+  top: 55px;
+  left: 565px;
+  transform: scale(1.3, 1.3);
+}
+/* line 87, ../sass/melos.scss */
+.panel01 .grass04 {
+  z-index: 0;
+  top: 569px;
+  left: 1057px;
+}
+/* line 93, ../sass/melos.scss */
+.panel01 .grass05 {
+  z-index: 0;
+  top: 360px;
+  left: 1091px;
+  transform: scale(1.3, 1.3);
+}
+/* line 100, ../sass/melos.scss */
+.panel01 .grass06 {
+  z-index: 0;
+  top: 427px;
+  left: 1160px;
+}
+/* line 106, ../sass/melos.scss */
+.panel01 .thirdday {
+  z-index: 0;
+  top: 40px;
+  left: 1096px;
+  width: 220px;
+  height: 55px;
+  padding-top: 15px;
+  text-align: center;
+  background: #1e5317;
+  border-radius: 5px;
+}
+
+/* line 119, ../sass/melos.scss */
+.panel02 {
+  height: 495px;
+  background: #e3665b;
+}
+
+/* line 124, ../sass/melos.scss */
+.panel03 {
+  height: 654px;
+  background: #4cc6c7;
+  animation: moveBackground01 10s linear 0s 1 normal forwards;
+}
+/* line 129, ../sass/melos.scss */
+.panel03 .text04 {
+  z-index: 4;
+  top: 50px;
+  animation: moveText04 30s linear 0s 1 normal forwards;
+}
+@keyframes moveText04 {
+  from {
+    left: 1000px;
+  }
+  to {
+    left: -5500px;
+  }
+}
+/* line 145, ../sass/melos.scss */
+.panel03 .sun {
+  z-index: 0;
+  top: -5px;
+  left: 1138px;
+  width: 188px;
+  height: 188px;
+  background: #F8D11C;
+  border-radius: 50%;
+  animation: moveSun 30s linear 0s 1 normal forwards;
+}
+@keyframes moveSun {
+  from {
+    transform: rotate(0);
+    transform-origin: 400px 800px;
+  }
+  to {
+    transform: rotate(-100deg);
+    transform-origin: 400px 800px;
+  }
+}
+/* line 170, ../sass/melos.scss */
+.panel03 .animation02 {
+  z-index: 5;
+  bottom: 100px;
+  left: 1000px;
+}
+/* line 176, ../sass/melos.scss */
+.panel03 .animation09 {
+  z-index: 1;
+  bottom: 0;
+}
+/* line 181, ../sass/melos.scss */
+.panel03 .animation04 {
+  z-index: 3;
+  top: 264px;
+  animation: moveAnimation04 5s linear 0s 1 normal both;
+}
+@keyframes moveAnimation04 {
+  from {
+    left: -400px;
+  }
+  to {
+    left: 300px;
+  }
+}
+/* line 196, ../sass/melos.scss */
+.panel03 .animation05 {
+  z-index: 3;
+  top: 264px;
+  animation: moveAnimation05 9s linear 0s 1 normal both;
+}
+@keyframes moveAnimation05 {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 1500px;
+  }
+}
+/* line 212, ../sass/melos.scss */
+.panel03 .animation06 {
+  z-index: 2;
+  top: 362px;
+  animation: moveAnimation06 15s linear 0s 1 normal both;
+}
+@keyframes moveAnimation06 {
+  from {
+    left: -600px;
+  }
+  to {
+    left: 1500px;
+  }
+}
+/* line 227, ../sass/melos.scss */
+.panel03 .animation07 {
+  z-index: 3;
+  top: 424px;
+  animation: moveAnimation07 8s linear 0s 1 normal both;
+}
+@keyframes moveAnimation07 {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 1000px;
+  }
+}
+@keyframes moveBackground01 {
+  from {
+    background-color: #4cc6c7;
+  }
+  50% {
+    background-color: #4cc6c7;
+  }
+  to {
+    background-color: #f95b32;
+  }
+}
+/* line 258, ../sass/melos.scss */
+.panel04 {
+  height: 700px;
+  background: #fff2e5;
+}
+/* line 262, ../sass/melos.scss */
+.panel04 .text05 {
+  z-index: 1;
+  top: 80px;
+  left: 224px;
+}
+/* line 268, ../sass/melos.scss */
+.panel04 .marker01 {
+  z-index: 0;
+  top: 80px;
+  left: 224px;
+  width: 975px;
+  height: 83px;
+  background: #f9b046;
+  animation: moveMarker01 2s linear 1s 1 normal both;
+}
+@keyframes moveMarker01 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 975px;
+  }
+}
+/* line 288, ../sass/melos.scss */
+.panel04 .marker02 {
+  z-index: 0;
+  top: 180px;
+  left: 372px;
+  width: 660px;
+  height: 83px;
+  background: #f9b046;
+  animation: moveMarker02 1.5s linear 3s 1 normal both;
+}
+@keyframes moveMarker02 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 660px;
+  }
+}
+/* line 308, ../sass/melos.scss */
+.panel04 .melos-face-only {
+  z-index: 0;
+  top: 300px;
+  left: 200px;
+  animation: moveMelosFaceOnly 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s infinite alternate;
+}
+@keyframes moveMelosFaceOnly {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+/* line 325, ../sass/melos.scss */
+.panel04 .animation10 {
+  z-index: 0;
+  top: 350px;
+  left: 625px;
+}
+
+/* line 332, ../sass/melos.scss */
+.panel05 {
+  height: 124px;
+  background: #252b23;
+}
+
+/* line 337, ../sass/melos.scss */
+.panel06 {
+  height: 1000px;
+  background: #2e3456;
+}
+/* line 341, ../sass/melos.scss */
+.panel06 .bg-star01 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/star01.svg) repeat 0 0;
+}
+/* line 347, ../sass/melos.scss */
+.panel06 .bg-star02 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/star02.svg) repeat 0 0;
+}
+/* line 353, ../sass/melos.scss */
+.panel06 .bg-star03 {
+  width: 100%;
+  height: 100%;
+  background: url(../images/star03.svg) repeat 0 0;
+}
+/* line 359, ../sass/melos.scss */
+.panel06 .animation12 {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  animation: moveAnimation12 2s linear 12s 1 normal both;
+}
+@keyframes moveAnimation12 {
+  from {
+    left: 0;
+  }
+  to {
+    left: -300px;
+  }
+}
+/* line 377, ../sass/melos.scss */
+.panel07 {
+  height: 1500px;
+  background: #e3665b;
+}
+/* line 381, ../sass/melos.scss */
+.panel07 .text11-01 {
+  top: 70px;
+  left: 150px;
+}
+/* line 386, ../sass/melos.scss */
+.panel07 .text11-02 {
+  top: 70px;
+  left: 1800px;
+  animation: moveText11_02 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+@keyframes moveText11_02 {
+  from {
+    left: 1800px;
+  }
+  to {
+    left: 850px;
+  }
+}
+/* line 402, ../sass/melos.scss */
+.panel07 .bullets {
+  top: 200px;
+  left: 1300px;
+  animation: moveBullets 6s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0s 1 normal both;
+}
+@keyframes moveBullets {
+  from {
+    left: 1500px;
+    transform: scale(10);
+    transform-origin: left top;
+  }
+  to {
+    left: 180px;
+    transform: scale(1);
+    transform-origin: left top;
+  }
+}
+/* line 424, ../sass/melos.scss */
+.panel07 .text12 {
+  top: 1269px;
+  left: 124px;
+  animation: moveText01 1s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0s 1 normal both;
+}
+
+/* line 431, ../sass/melos.scss */
+.panel08 {
+  height: 654px;
+  background: #1A8F59;
+}
+/* line 435, ../sass/melos.scss */
+.panel08 .bg-grasses {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/grasses.svg) repeat 0 0;
+}
+/* line 442, ../sass/melos.scss */
+.panel08 .bg-wilderness {
+  z-index: 1;
+  overflow: hidden;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #f9b046;
+  animation: moveBgWilderness 4s linear .7s 1 normal both;
+}
+@keyframes moveBgWilderness {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* line 462, ../sass/melos.scss */
+.panel08 .shockwave {
+  z-index: 3;
+  top: 0;
+  left: 0;
+  animation: moveShockwave .2s linear 0s infinite normal both;
+}
+@keyframes moveShockwave {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* line 479, ../sass/melos.scss */
+.panel08 .melos {
+  z-index: 4;
+  top: 154px;
+  left: -95px;
+  animation: moveShockwave 5s linear 0s 1 normal both;
+}
+/* line 485, ../sass/melos.scss */
+.panel08 .melos img {
+  transform: scale(0.2);
+}
+/* line 490, ../sass/melos.scss */
+.panel08 .destroyer {
+  animation: moveDestroyer 5s linear 0s 1 normal both;
+}
+@keyframes moveDestroyer {
+  from {
+    left: 1400px;
+  }
+  to {
+    left: -350px;
+  }
+}
+/* line 504, ../sass/melos.scss */
+.panel08 .text13 {
+  z-index: 2;
+  top: 210px;
+  right: 220px;
+  width: 925px;
+  height: 255px;
+  animation: moveText13 4s linear 0s 1 normal both;
+}
+
+/* line 514, ../sass/melos.scss */
+.panel09 {
+  height: 655px;
+  background: #252b23;
+}
+/* line 518, ../sass/melos.scss */
+.panel09 .stop {
+  top: 88px;
+  left: 125px;
+}
+/* line 523, ../sass/melos.scss */
+.panel09 .text14-01 {
+  top: 84px;
+  left: 384px;
+  animation: moveText14 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal both;
+}
+/* line 529, ../sass/melos.scss */
+.panel09 .text14-02 {
+  top: 229px;
+  left: 384px;
+  animation: moveText14 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s 1 normal both;
+}
+@keyframes moveText14 {
+  from {
+    left: 1400px;
+  }
+  to {
+    left: 384px;
+  }
+}
+/* line 545, ../sass/melos.scss */
+.panel09 .text15 {
+  top: 412px;
+  left: 587px;
+  animation: moveText15 3s linear 2s 1 normal both;
+}
+@keyframes moveText15 {
+  from {
+    top: 700px;
+  }
+  to {
+    top: 412px;
+  }
+}
+/* line 561, ../sass/melos.scss */
+.panel09 .text16 {
+  top: 510px;
+  left: 388px;
+  animation: moveText16 1s cubic-bezier(0.645, 0.045, 0.355, 1) 10s 1 normal both;
+}
+@keyframes moveText16 {
+  from {
+    transform: rotate(-50deg);
+    transform-origin: right bottom;
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0);
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+}
+/* line 583, ../sass/melos.scss */
+.panel09 .animation02 {
+  top: 470px;
+  left: 1300px;
+  animation: moveEndingMelos 10s cubic-bezier(0.645, 0.045, 0.355, 1) 1s 1 normal both;
+}
+@keyframes moveEndingMelos {
+  from {
+    top: 470px;
+    left: 1300px;
+  }
+  to {
+    top: 470px;
+    left: 770px;
+  }
+}
+/*
+animation_parts
+--------------------------------------------------*/
+/* line 606, ../sass/melos.scss */
+.animation01 {
+  height: 300px;
+}
+/* line 609, ../sass/melos.scss */
+.animation01 .couple {
+  z-index: 2;
+  top: 44px;
+  left: 70px;
+}
+/* line 615, ../sass/melos.scss */
+.animation01 .yome-hand {
+  z-index: 1;
+  top: 122px;
+  left: 29px;
+  animation: moveYomeHand 2s linear 0s infinite normal;
+}
+@keyframes moveYomeHand {
+  from {
+    transform: rotate(0);
+    transform-origin: right 30px;
+  }
+  25% {
+    transform: rotate(45deg);
+    transform-origin: right 30px;
+  }
+  50% {
+    transform: rotate(0deg);
+    transform-origin: right 30px;
+  }
+  75% {
+    transform: rotate(-45deg);
+    transform-origin: right 30px;
+  }
+  to {
+    transform: rotate(0deg);
+    transform-origin: right 30px;
+  }
+}
+/* line 651, ../sass/melos.scss */
+.animation01 .otto-hand {
+  z-index: 1;
+  top: 117px;
+  left: 272px;
+  animation: moveOttoHand 2s linear 0s infinite normal;
+}
+@keyframes moveOttoHand {
+  from {
+    transform: rotate(0);
+    transform-origin: left 30px;
+  }
+  25% {
+    transform: rotate(-45deg);
+    transform-origin: left 30px;
+  }
+  50% {
+    transform: rotate(0deg);
+    transform-origin: left 30px;
+  }
+  75% {
+    transform: rotate(45deg);
+    transform-origin: left 30px;
+  }
+  to {
+    transform: rotate(0);
+    transform-origin: left 30px;
+  }
+}
+/* line 688, ../sass/melos.scss */
+.animation02 {
+  height: 370px;
+}
+/* line 691, ../sass/melos.scss */
+.animation02 .melos {
+  animation: moveMelos 0.15s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite alternate;
+}
+@keyframes moveMelos {
+  from {
+    top: 10px;
+  }
+  to {
+    top: 0;
+  }
+}
+/* line 705, ../sass/melos.scss */
+.animation02 .melos-face {
+  z-index: 5;
+  left: 54px;
+  animation: moveMelosFace 0.75s linear 0s infinite alternate;
+}
+@keyframes moveMelosFace {
+  from {
+    top: 4px;
+    transform: rotate(0);
+  }
+  to {
+    top: 11px;
+    transform: rotate(-10deg);
+  }
+}
+/* line 723, ../sass/melos.scss */
+.animation02 .melos-body {
+  z-index: 3;
+  left: 90px;
+  animation: moveMelosBody 0.225s linear 0s infinite alternate;
+}
+@keyframes moveMelosBody {
+  from {
+    top: 100px;
+    transform: rotate(0);
+  }
+  to {
+    top: 110px;
+    transform: rotate(-14deg);
+  }
+}
+/* line 741, ../sass/melos.scss */
+.animation02 .melos-hand-left {
+  z-index: 4;
+  top: 109px;
+  left: 156px;
+  animation: moveMelosHandLeft 0.3s linear 0s infinite alternate;
+}
+@keyframes moveMelosHandLeft {
+  from {
+    transform: rotate(-30deg);
+    transform-origin: left 15%;
+  }
+  to {
+    transform: rotate(90deg);
+    transform-origin: left 15%;
+  }
+}
+/* line 760, ../sass/melos.scss */
+.animation02 .melos-hand-right {
+  z-index: 2;
+  top: 73px;
+  left: 38px;
+  animation: moveMelosHandRight 0.3s linear 0s infinite alternate;
+}
+/* line 766, ../sass/melos.scss */
+.animation02 .melos-hand-right img {
+  transform: scale(-1, -1) rotate(-33deg);
+}
+@keyframes moveMelosHandRight {
+  from {
+    transform: rotate(0);
+    transform-origin: right 50%;
+  }
+  to {
+    transform: rotate(-90deg);
+    transform-origin: right 50%;
+  }
+}
+/* line 783, ../sass/melos.scss */
+.animation02 .melos-leg-left {
+  z-index: 2;
+  top: 211px;
+  left: 160px;
+  animation: moveMelosLegLeft 0.3s linear 0s infinite alternate;
+}
+@keyframes moveMelosLegLeft {
+  from {
+    transform: rotate(60deg);
+    transform-origin: left 15%;
+  }
+  to {
+    transform: rotate(-20deg);
+    transform-origin: left 15%;
+  }
+}
+/* line 802, ../sass/melos.scss */
+.animation02 .melos-leg-right {
+  z-index: 1;
+  top: 214px;
+  left: 49px;
+  animation: moveMelosLegRight 0.3s linear 0s infinite alternate;
+}
+/* line 808, ../sass/melos.scss */
+.animation02 .melos-leg-right img {
+  transform: rotate(102deg);
+}
+@keyframes moveMelosLegRight {
+  from {
+    transform: rotate(-80deg);
+    transform-origin: right 15%;
+  }
+  to {
+    transform: rotate(0);
+    transform-origin: right 15%;
+  }
+}
+/* line 826, ../sass/melos.scss */
+.animation03 {
+  height: 800px;
+}
+/* line 829, ../sass/melos.scss */
+.animation03 .text01 {
+  animation: moveText01 .5s linear 2s 1 normal;
+}
+@keyframes moveText01 {
+  from {
+    transform: rotate(0);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  90% {
+    transform: rotate(-5deg);
+  }
+  95% {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+/* line 856, ../sass/melos.scss */
+.animation04 {
+  height: 400px;
+}
+/* line 859, ../sass/melos.scss */
+.animation04 .cheers-people01 {
+  z-index: 2;
+  top: 10px;
+  left: 0;
+}
+/* line 865, ../sass/melos.scss */
+.animation04 .cheers-people02 {
+  z-index: 2;
+  top: 10px;
+  left: 199px;
+}
+/* line 871, ../sass/melos.scss */
+.animation04 .cheers-hand01 {
+  z-index: 1;
+  top: 92px;
+  left: 72px;
+  animation: movecheersHand01 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s infinite alternate;
+}
+@keyframes movecheersHand01 {
+  from {
+    transform: rotate(20deg);
+    transform-origin: left 30px;
+  }
+  to {
+    transform: rotate(-10deg);
+    transform-origin: left 30px;
+  }
+}
+/* line 892, ../sass/melos.scss */
+.animation04 .cheers-hand02 {
+  z-index: 1;
+  top: 92px;
+  left: 155px;
+  animation: movecheersHand02 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s infinite alternate;
+}
+@keyframes movecheersHand02 {
+  from {
+    transform: rotate(-20deg);
+    transform-origin: right 30px;
+  }
+  to {
+    transform: rotate(10deg);
+    transform-origin: right 30px;
+  }
+}
+/* line 914, ../sass/melos.scss */
+.animation05 {
+  height: 400px;
+}
+/* line 917, ../sass/melos.scss */
+.animation05 .surprised {
+  animation: moveSurprised 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s 1 normal forwards;
+}
+/* line 920, ../sass/melos.scss */
+.animation05 .surprised .surprised-people01 {
+  z-index: 1;
+  top: 10px;
+  left: -47px;
+}
+/* line 926, ../sass/melos.scss */
+.animation05 .surprised .surprised-people02 {
+  z-index: 1;
+  top: 10px;
+  left: 152px;
+}
+/* line 932, ../sass/melos.scss */
+.animation05 .surprised .surprised-cup01 {
+  z-index: 1;
+  top: 10px;
+  left: 162px;
+  animation: moveSurprisedCup01 1s linear 0s infinite normal;
+}
+@keyframes moveSurprisedCup01 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* line 949, ../sass/melos.scss */
+.animation05 .surprised .surprised-cup02 {
+  z-index: 1;
+  top: 10px;
+  left: 111px;
+  animation: moveSurprisedCup02 1s linear 0s infinite reverse;
+}
+@keyframes moveSurprisedCup02 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* line 966, ../sass/melos.scss */
+.animation05 .surprised .surprised-bottle {
+  z-index: 1;
+  top: 150px;
+  left: 305px;
+  animation: moveSurprisedBottle 1s linear 0s infinite normal;
+}
+@keyframes moveSurprisedBottle {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes moveSurprised {
+  from {
+    top: 0;
+  }
+  to {
+    top: -100px;
+  }
+}
+/* line 995, ../sass/melos.scss */
+.animation06 {
+  height: 500px;
+}
+/* line 998, ../sass/melos.scss */
+.animation06 .river {
+  z-index: 1;
+}
+/* line 1002, ../sass/melos.scss */
+.animation06 .river-flow01 {
+  z-index: 2;
+  top: 17px;
+  left: 158px;
+  animation: moveRiverFlow01 .2s linear 0s infinite normal;
+  transform: scale(0.9, 0.9);
+}
+@keyframes moveRiverFlow01 {
+  from {
+    left: 168px;
+  }
+  to {
+    left: 158px;
+  }
+}
+/* line 1021, ../sass/melos.scss */
+.animation07 {
+  height: 200px;
+}
+/* line 1024, ../sass/melos.scss */
+.animation07 .dog-fly {
+  animation: moveDogFly 1.5s linear 0s 1 normal forwards;
+}
+@keyframes moveDogFly {
+  from {
+    top: 0;
+    left: 0;
+    transform: rotate(0) scale(1, 1);
+    opacity: 1;
+  }
+  to {
+    top: -200px;
+    left: -100px;
+    transform: rotate(720deg) scale(0.5, 0.5);
+    opacity: 0;
+  }
+}
+/* line 1045, ../sass/melos.scss */
+.animation08 {
+  height: 700px;
+}
+/* line 1048, ../sass/melos.scss */
+.animation08 .melos-large {
+  top: -39px;
+  animation: moveMelosLarge 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s 1 normal forwards;
+}
+@keyframes moveMelosLarge {
+  from {
+    left: 1500px;
+  }
+  to {
+    left: 600px;
+  }
+}
+/* line 1063, ../sass/melos.scss */
+.animation08 .text03 {
+  top: 20px;
+  left: 100px;
+  animation: moveText03 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s 1 normal forwards;
+  opacity: 0;
+}
+@keyframes moveText03 {
+  from {
+    display: block;
+    transform: rotate(-50deg);
+    transform-origin: 500px bottom;
+    opacity: 0;
+  }
+  to {
+    display: block;
+    transform: rotate(0);
+    transform-origin: 500px bottom;
+    opacity: 1;
+  }
+}
+/* line 1089, ../sass/melos.scss */
+.animation09 {
+  width: 100%;
+  height: 500px;
+}
+/* line 1093, ../sass/melos.scss */
+.animation09 .earth {
+  z-index: 3;
+  bottom: 0;
+  width: 100%;
+  height: 248px;
+  background: #5e9152;
+}
+/* line 1101, ../sass/melos.scss */
+.animation09 .load {
+  z-index: 4;
+  bottom: 64px;
+  width: 100%;
+  height: 121px;
+  background: #f9b046;
+}
+/* line 1109, ../sass/melos.scss */
+.animation09 .trees {
+  z-index: 4;
+  top: 55px;
+  animation: moveClowds 20s linear 5s infinite normal both;
+}
+@keyframes moveClowds {
+  from {
+    left: -1200px;
+  }
+  to {
+    left: 1500px;
+  }
+}
+/* line 1125, ../sass/melos.scss */
+.animation09 .mountains {
+  z-index: 2;
+  top: 28px;
+  animation: moveClowds 27s linear 2s infinite normal both;
+}
+@keyframes moveClowds {
+  from {
+    left: -1200px;
+  }
+  to {
+    left: 1500px;
+  }
+}
+/* line 1140, ../sass/melos.scss */
+.animation09 .clowds {
+  z-index: 1;
+  animation: moveClowds 35s linear 0s infinite normal;
+  transform: scale(-1, 1);
+}
+@keyframes moveClowds {
+  from {
+    left: -1200px;
+  }
+  to {
+    left: 1500px;
+  }
+}
+/* line 1157, ../sass/melos.scss */
+.animation10 {
+  height: 500px;
+}
+/* line 1160, ../sass/melos.scss */
+.animation10 .baloon {
+  left: 40px;
+  width: 584px;
+  height: 243px;
+  background: #4cc6c7;
+  border-radius: 28px;
+}
+/* line 1167, ../sass/melos.scss */
+.animation10 .baloon:before {
+  position: absolute;
+  top: 35px;
+  left: -110px;
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  border-right: 80px solid #4cc6c7;
+  content: '';
+}
+/* line 1179, ../sass/melos.scss */
+.animation10 .text06-01 {
+  top: 46px;
+  left: 91px;
+  animation: moveText06 2s cubic-bezier(0.23, 1, 0.32, 1) 0s 1 normal both;
+}
+/* line 1185, ../sass/melos.scss */
+.animation10 .text06-02 {
+  top: 113px;
+  left: 91px;
+  animation: moveText06 2s cubic-bezier(0.23, 1, 0.32, 1) 1s 1 normal both;
+}
+@keyframes moveText06 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 1202, ../sass/melos.scss */
+.animation11 {
+  width: 100%;
+  height: 124px;
+}
+/* line 1206, ../sass/melos.scss */
+.animation11 .text07-01 {
+  top: 20px;
+  left: 46%;
+  transform: translateX(-50%);
+  animation: moveText07 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s infinite normal both;
+}
+/* line 1213, ../sass/melos.scss */
+.animation11 .text07-02 {
+  top: 20px;
+  left: 54%;
+  transform: translateX(-50%);
+  animation: moveText07 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s infinite normal both;
+}
+@keyframes moveText07 {
+  from {
+    transform: scale(0.9, 0.9);
+  }
+  40% {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+/* line 1235, ../sass/melos.scss */
+.animation12 {
+  width: 100%;
+  height: 758px;
+}
+/* line 1239, ../sass/melos.scss */
+.animation12 .whole-earth {
+  z-index: 1;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  width: 1600px;
+  height: 1600px;
+  border-radius: 50%;
+  background: #4cc6c7;
+  transform: translate(-50%, -50%);
+  animation: moveWholeEerth 100s linear 2s 1 normal forwards;
+}
+@keyframes moveWholeEerth {
+  from {
+    width: 1600px;
+    height: 1600px;
+  }
+  5% {
+    width: 1600px;
+    height: 1600px;
+  }
+  7% {
+    width: 462px;
+    height: 462px;
+  }
+  to {
+    width: 462px;
+    height: 462px;
+  }
+}
+/* line 1274, ../sass/melos.scss */
+.animation12 .continent {
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: scale(1) translate(-1103px, -967px);
+  animation: moveContinent 100s linear 2s 1 normal both;
+}
+@keyframes moveContinent {
+  from {
+    opacity: 1;
+  }
+  8% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* line 1302, ../sass/melos.scss */
+.animation12 .pin {
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e3665b;
+  transform: translate(-50%, -50%);
+  animation: movePin 100s linear 2s 1 normal both;
+}
+@keyframes movePin {
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  5% {
+    width: 40px;
+    height: 40px;
+  }
+  7% {
+    width: 20px;
+    height: 20px;
+  }
+  9% {
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+  }
+  10% {
+    width: 20px;
+    height: 20px;
+    margin-top: 150px;
+  }
+  to {
+    width: 20px;
+    height: 20px;
+    margin-top: 150px;
+    opacity: 1;
+  }
+}
+/* line 1353, ../sass/melos.scss */
+.animation12 .path01 {
+  z-index: 5;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  width: 399px;
+  height: 168px;
+  transform: translate(-399px, -168px);
+  animation: movePath01 100s linear 2s 1 normal both;
+}
+@keyframes movePath01 {
+  from {
+    width: 0;
+  }
+  1% {
+    width: 0;
+  }
+  2% {
+    width: 399px;
+  }
+  4% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* line 1390, ../sass/melos.scss */
+.animation12 .text08 {
+  z-index: 5;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  width: 323px;
+  height: 76px;
+  /*heightとmargin-topを同時に動かせば出現いけそうだ！*/
+  transform: translate(-398px, -252px);
+  animation: moveText08 100s linear 2s 1 normal both;
+}
+@keyframes moveText08 {
+  from {
+    height: 0;
+  }
+  1% {
+    height: 0;
+    margin-top: 74px;
+  }
+  2% {
+    height: 74px;
+    margin-top: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* line 1429, ../sass/melos.scss */
+.animation12 .axis-top {
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 60px;
+  border-radius: 0;
+  background: #ad7457;
+  transform: translate(-7px, -290px);
+  animation: moveAxisTop 100s linear 2s 1 normal both;
+}
+@keyframes moveAxisTop {
+  from {
+    z-index: 0;
+    width: 14px;
+    height: 60px;
+    border-radius: 0;
+    transform: translate(-7px, -290px);
+  }
+  8% {
+    z-index: 0;
+    width: 14px;
+    height: 60px;
+    border-radius: 0;
+    transform: translate(-7px, -290px);
+  }
+  9% {
+    z-index: 2;
+    width: 14px;
+    height: 60px;
+    border-radius: 0;
+    transform: translate(-7px, -290px);
+  }
+  10% {
+    z-index: 2;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transform: translate(-7px, -7px);
+  }
+  to {
+    z-index: 2;
+    width: 14px;
+    height: 14px;
+    border-radius: 0;
+    transform: translate(-7px, -7px);
+  }
+}
+/* line 1483, ../sass/melos.scss */
+.animation12 .axis-bottom {
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 60px;
+  background: #ad7457;
+  transform: translate(-7px, 230px);
+  animation: moveAxisBottom 100s linear 2s 1 normal both;
+}
+@keyframes moveAxisBottom {
+  from {
+    transform: translate(-7px, 230px);
+  }
+  9% {
+    transform: translate(-7px, 230px);
+  }
+  10% {
+    transform: translate(-7px, -53px);
+  }
+  to {
+    transform: translate(-7px, 53px);
+  }
+}
+/* line 1512, ../sass/melos.scss */
+.animation12 .path03 {
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-160px, -164px);
+  animation: movePath03 100s linear 2s 1 normal both;
+}
+@keyframes movePath03 {
+  from {
+    opacity: 0;
+  }
+  11% {
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 1538, ../sass/melos.scss */
+.animation12 .path02 {
+  z-index: 6;
+  overflow: hidden;
+  top: 212px;
+  left: 800px;
+  width: 0;
+  height: 82px;
+  animation: movePath02 100s linear 2s 1 normal both;
+}
+@keyframes movePath02 {
+  from {
+    width: 0;
+  }
+  13% {
+    width: 0;
+  }
+  14% {
+    width: 626px;
+  }
+  to {
+    width: 626px;
+  }
+}
+/* line 1566, ../sass/melos.scss */
+.animation12 .text09 {
+  z-index: 6;
+  overflow: hidden;
+  top: 117px;
+  left: 910px;
+  width: 488px;
+  height: 0;
+  margin-top: 46px;
+  animation: moveText09 100s linear 2s 1 normal both;
+}
+@keyframes moveText09 {
+  from {
+    margin-top: 77px;
+    height: 0;
+  }
+  13% {
+    margin-top: 77px;
+    height: 0;
+  }
+  14% {
+    margin-top: 0;
+    height: 77px;
+  }
+  to {
+    margin-top: 0;
+    height: 77px;
+  }
+}
+/* line 1599, ../sass/melos.scss */
+.animation12 .text10-01 {
+  z-index: 6;
+  overflow: hidden;
+  top: 280px;
+  left: 980px;
+  width: 474px;
+  height: 0;
+  animation: moveText10_01 100s linear 2s 1 normal both;
+}
+@keyframes moveText10_01 {
+  from {
+    height: 0;
+  }
+  16% {
+    height: 0;
+  }
+  19% {
+    height: 485px;
+  }
+  to {
+    height: 485px;
+  }
+}
+/* line 1627, ../sass/melos.scss */
+.animation12 .text10-02 {
+  z-index: 6;
+  left: 1014px;
+  width: 414px;
+  height: 57px;
+  animation: moveText10_02 2s cubic-bezier(0.19, 1, 0.22, 1) 22s 1 normal both;
+}
+@keyframes moveText10_02 {
+  from {
+    top: 1050px;
+  }
+  to {
+    top: 800px;
+  }
+}

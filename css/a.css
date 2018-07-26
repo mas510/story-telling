@@ -1,0 +1,93 @@
+/** layout **/
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.human-medium {
+  width: 300px;
+      height: 380px;
+      background: #000;
+}
+
+/*
+.human-medium .human-parts {
+  width: 50%;
+}
+*/
+/** human **/
+
+
+.face {
+  top: 5%;
+  left: 26%;
+  z-index: 50;
+  width: 40%;}
+
+.body {
+  top: 33%;
+  left: 33%;
+  z-index: 48;
+  width: 35%;
+
+  animation-name：アニメーションの名前（@keyframesの指定）
+  animation-duration：アニメーションにかかる時間
+  animation-timing-function：アニメーションの変化率
+  animation-iteration-count：アニメーションの繰り返し回数
+  animation-direction：アニメーションの再生方向
+  animation-delay：アニメーション開始の遅れ時間
+
+}
+
+@keyframes animation01 {
+  from {
+    top: 33%;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    top: 34%;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: 33%;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    top: 32%;
+    animation-timing-function: ease-in;
+  }
+  to {
+    top: 33%;
+  }
+}
+
+.hand-right {
+  top: 34%;
+  left: 17%;
+  z-index: 47;
+  width: 31%;
+}
+
+.hand-left {
+  top: 35%;
+  left: 56%;
+  z-index: 49;
+  width: 27%;
+}
+
+.leg-right {
+  top: 62%;
+  left: 49%;
+  z-index: 46;
+  width: 38%;
+}
+
+.leg-left {
+  top: 61%;
+  left: 31%;
+  z-index: 47;
+  width: 27%;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="64px" viewBox="0 0 89 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>otto-hand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-974.000000, -101.000000)">
+            <g id="otto-hand" transform="translate(1022.326769, 127.926016) rotate(187.000000) translate(-1022.326769, -127.926016) translate(979.826769, 93.926016)">
+                <path d="M18,52.0375609 C18,52.0375609 29.870209,35.0036615 47.9565803,21.4650454 C66.0429515,7.92642921 84.4313105,9.9475983e-14 84.4313105,9.9475983e-14" id="Path-6" stroke="#FFD9B0" stroke-width="17"></path>
+                <ellipse id="Oval-3" fill="#FFD9B0" transform="translate(17.637770, 52.273985) rotate(24.000000) translate(-17.637770, -52.273985) " cx="17.6377698" cy="52.273985" rx="13.8242962" ry="10.8352592"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

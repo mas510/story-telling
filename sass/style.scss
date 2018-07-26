@@ -1,0 +1,5 @@
+@charset "utf-8";
+@import "compass"; //Compassの全ての機能をインポート
+@import "compass/reset/"; //CompassのリセットCSSをインポート
+@import "./setting.scss";
+@import "./melos.scss";

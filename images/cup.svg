@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="31px" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>cap</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="35.0415946 0 0 0 8.80586798 30.6083477 26.2357266 30.6083477"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-777.000000, -2540.000000)">
+            <g id="ギリシャ02" transform="translate(777.000000, 2458.000000)">
+                <g id="乾杯用の手" transform="translate(0.000000, 82.000000)">
+                    <g id="cap">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#F5A623" xlink:href="#path-1"></use>
+                        <polygon id="Path-14" fill="#CF870F" mask="url(#mask-2)" points="24 -8 16 36 36 35 43 -6"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

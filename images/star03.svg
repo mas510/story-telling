@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="273px" viewBox="0 0 321 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>star03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="321" height="273"></rect>
+        <rect id="path-3" x="0" y="0" width="321" height="273"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="star03">
+            <g id="Page-1">
+                <g id="Desktop-HD">
+                    <g id="star03">
+                        <g id="Group-Clipped">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <g id="Group" opacity="0.0477807971" mask="url(#mask-2)">
+                                <g transform="translate(67.000000, 52.000000)" id="Page-1">
+                                    <g>
+                                        <polygon id="Shape" fill="#FEFEFE" points="166.052576 68 163.258375 73.7764606 157 74.7061037 161.526288 79.2041986 160.457083 85.555626 166.052576 82.5570378 171.648069 85.555626 170.578864 79.2041986 175.106403 74.7061037 168.848028 73.7764606"></polygon>
+                                        <polygon id="Shape" fill="#FEFEFE" points="69.4899724 138.006577 66.6957718 143.783038 60.4373966 144.712681 64.9636845 149.210776 63.8944793 155.562203 69.4899724 152.563615 75.0854655 155.562203 74.0162604 149.210776 78.5437998 144.712681 72.2854246 143.783038"></polygon>
+                                        <polygon id="Shape" fill="#FEFEFE" points="9.05257588 0 6.25837527 5.77646055 0 6.70610369 4.52628794 11.2041986 3.45708278 17.555626 9.05257588 14.5570378 14.648069 17.555626 13.5788638 11.2041986 18.1064033 6.70610369 11.848028 5.77646055"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
